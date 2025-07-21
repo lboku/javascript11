@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="image-slider" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide"><img class="img-size" src="./alpine.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./ferrari copy.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./haas copy.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./maclaren.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./mercedes.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./recingbulls.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./red-bull-conclusions-verstappen_3473471.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./sauber.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./stonmartin.jpg" alt="" /></li>
+          <li class="splide__slide"><img class="img-size" src="./williams.jpeg" alt="" /></li>
+      </div>
+    </div>
+    <section class="section">
+        <h2>რეგისტრაცია</h2>
+        <form action="" id="form-element">
+            <div class="div-size">
+                <input class="input"  type="text" name="username" id="usernamefield" placeholder="your username...">
+                <p class="error-text" id="error-username"></p>
+            </div>
+            <div class="div-size">
+                <input class="input" type="email" name="email" id="emailfield" placeholder="your email...">
+                <p class="error-text" id="error-email"></p>
+            </div>
+                <div class="div-size">
+                    <input class="input" type="password" name="password" id="passwordfield" placeholder="your password...">
+                    <p class="error-text" id="error-password"></p>
+                    <i class="fa-solid fa-eye" id="toggleIcon"></i>
+             
+          
+            </div>
+            
+            <div class="div-size">
+                <input class="input" type="password" name="password2" id="passwordfield2" placeholder="repeat your password...">
+                <p class="error-text" id="error-password2"></p> 
+                <i class="fa-solid fa-eye" id="toggleIcon2"></i>
+            </div>
+            <div class="div-size">
+                <input type="radio" name="gender" id="gendermale" class="genderfield">
+                <label for="gendermale">Male</label>
+              
+                <input type="radio" name="gender" id="genderfemale" class="genderfield">
+                <label for="genderfemale">Female</label>
+              
+                <p class="error-text" id="error-gender"></p>
+              </div>
+              
+            <div class="div-size">
+                <input type="checkbox" name="agree" id="check">
+                <label for=""> i agree terms and conditions</label>
+                <p class="error-text" id="error-agree"></p>
+            </div>
+            <button type="submit">რეგისტრაცია</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
